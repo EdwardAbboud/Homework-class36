@@ -18,11 +18,14 @@ it pure. Do the following:
 // ! Function under test
 function addToShoppingCart(shoppingCart, groceryItem) {
   // TODO complete this function
-  shoppingCart.push(groceryItem);
-  if (shoppingCart.length > 3) {
-    shoppingCart.shift();
+  let newShoppingCart = [...shoppingCart];
+  if (groceryItem) {
+    newShoppingCart.push(groceryItem);
+    if (newShoppingCart.length > 3) {
+      newShoppingCart.shift();
+    }
   }
-  return shoppingCart;
+  return newShoppingCart;
 }
 
 // ! Test functions (plain vanilla JavaScript)
