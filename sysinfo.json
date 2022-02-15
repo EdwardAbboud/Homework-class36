@@ -1,0 +1,53 @@
+{
+  "node": "v16.13.2",
+  "system": {
+    "manufacturer": "Apple Inc.",
+    "model": "MacBookPro12,1"
+  },
+  "cpu": {
+    "manufacturer": "Intel®",
+    "brand": "Core™ i5-5287U",
+    "speed": 2.9
+  },
+  "memory": "16 GB",
+  "osInfo": {
+    "platform": "darwin",
+    "distro": "macOS",
+    "release": "11.6.3"
+  },
+  "vscodeInfo": {
+    "version": "1.64.2",
+    "extensions": [
+      "aaron-bond.better-comments",
+      "bierner.github-markdown-preview",
+      "bierner.markdown-checkbox",
+      "bierner.markdown-emoji",
+      "bierner.markdown-preview-github-styles",
+      "bierner.markdown-yaml-preamble",
+      "DavidAnson.vscode-markdownlint",
+      "dbaeumer.vscode-eslint",
+      "eamodio.gitlens",
+      "esbenp.prettier-vscode",
+      "evgeniypeshkov.syntax-highlighter",
+      "formulahendry.code-runner",
+      "hdg.live-html-previewer",
+      "ritwickdey.LiveServer",
+      "streetsidesoftware.code-spell-checker",
+      "WallabyJs.quokka-vscode",
+      "xabikos.JavaScriptSnippets",
+      "yzhang.markdown-all-in-one"
+    ],
+    "userSettings": {
+      "workbench.colorTheme": "Default Dark+",
+      "editor.fontSize": 14,
+      "editor.minimap.enabled": false,
+      "editor.formatOnSave": true,
+      "diffEditor.wordWrap": "on",
+      "editor.wordWrap": "on",
+      "editor.formatOnPaste": true,
+      "html.format.indentInnerHtml": true,
+      "quokka.automaticRestart": true,
+      "quokka.compactMessageOutput": true
+    }
+  }
+}

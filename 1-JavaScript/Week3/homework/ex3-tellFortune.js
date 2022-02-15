@@ -39,33 +39,36 @@ function selectRandomly(arr) {
 }
 
 function tellFortune(numKids, partnerNames, locations, jobTitles) {
-  // TODO complete this function
   let numKid = selectRandomly(numKids);
   let partnerName = selectRandomly(partnerNames);
   let location = selectRandomly(locations);
   let jobTitle = selectRandomly(jobTitles);
-  return "You will be a " + jobTitle + " in " + location + ", married to " + partnerName + " with " + numKid + " kids."
+  return (
+    'You will be a ' +
+    jobTitle +
+    ' in ' +
+    location +
+    ', married to ' +
+    partnerName +
+    ' with ' +
+    numKid +
+    ' kids.'
+  );
 }
 
 function main() {
-  const numKids = [
-    // TODO add elements here
-    1, 2, 3, 4, 5
-  ];
+  const numKids = [1, 2, 3, 4, 5];
 
-  const partnerNames = [
-    // TODO add elements here
-    'Josh', 'Teddy', 'Larry', 'David', 'Patrick'
-  ];
+  const partnerNames = ['Josh', 'Teddy', 'Larry', 'David', 'Patrick'];
 
-  const locations = [
-    // TODO add elements here
-    'Amsterdam', 'Beirut', 'Riyadh', 'Tokyo', 'Stockholm'
-  ];
+  const locations = ['Amsterdam', 'Beirut', 'Riyadh', 'Tokyo', 'Stockholm'];
 
   const jobTitles = [
-    // TODO add elements here
-    'doctor', 'physicist', 'astronaut', 'garbage-collector', 'programmer'
+    'doctor',
+    'physicist',
+    'astronaut',
+    'garbage-collector',
+    'programmer',
   ];
 
   console.log(tellFortune(numKids, partnerNames, locations, jobTitles));
