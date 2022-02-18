@@ -30,8 +30,8 @@ const cartForParty = {
 
 function calculateTotalPrice(obj) {
   let total = 0;
-  for (const value in obj) {
-    total += obj[value];
+  for (const key in obj) {
+    total += obj[key];
   }
   return `Total: ${total}`;
 }

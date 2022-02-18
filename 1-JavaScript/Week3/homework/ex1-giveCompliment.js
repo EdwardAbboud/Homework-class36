@@ -32,7 +32,7 @@ const compliments = [
 ];
 
 function giveCompliment(name) {
-  let randomSelector = Math.floor(Math.random() * compliments.length);
+  const randomSelector = Math.floor(Math.random() * compliments.length);
   let compliment = compliments[randomSelector];
   return 'You are ' + compliment + ', ' + name + '!';
 }
