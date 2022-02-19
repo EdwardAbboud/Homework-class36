@@ -1,0 +1,112 @@
+2022-02-19 02:17:21 info: ------------------------------------------------------
+2022-02-19 02:17:21 info: >>> Running Unit Test `ex1-doubleEvenNumbers.test` <<<
+2022-02-19 02:17:21 info: ------------------------------------------------------
+2022-02-19 02:17:21 info: Exercise has not yet been modified
+2022-02-19 02:17:24 info: All unit tests passed.
+2022-02-19 02:17:26 error: *** Spell Checker Report ***
+
+
+2022-02-19 02:29:01 info: ------------------------------------------------------
+2022-02-19 02:29:01 info: >>> Running Unit Test `ex1-doubleEvenNumbers.test` <<<
+2022-02-19 02:29:01 info: ------------------------------------------------------
+2022-02-19 02:29:04 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex1-doubleEvenNumbers.test.js --colors
+ FAIL  1-JavaScript/Week4/homework/ex1-doubleEvenNumbers.test.js
+  ● Test suite failed to run
+
+    Jest encountered an unexpected token
+
+    Jest failed to parse a file. This happens e.g. when your code or its dependencies use non-standard JavaScript syntax, or when Jest is not configured to support such syntax.
+
+    Out of the box Jest supports Babel, which will be used to transform your files into valid JS based on your Babel configuration.
+
+    By default "node_modules" folder is ignored by transformers.
+
+    Here's what you can do:
+     • If you are trying to use ECMAScript Modules, see https://jestjs.io/docs/ecmascript-modules for how to enable it.
+     • If you are trying to use TypeScript, see https://jestjs.io/docs/getting-started#using-typescript
+     • To have some of your "node_modules" files transformed, you can specify a custom "transformIgnorePatterns" in your config.
+     • If you need a custom transformation specify a "transform" option in your config.
+     • If you simply want to mock your non-JS modules (e.g. binary assets) you can stub them out with the "moduleNameMapper" config option.
+
+    You'll find more details and examples of these config options in the docs:
+    https://jestjs.io/docs/configuration
+    For information about custom transformations, see:
+    https://jestjs.io/docs/code-transformation
+
+    Details:
+
+    SyntaxError: /Users/edwardabboud/Documents/Coding/My Code/Hack Your Future/Javascript/Homework-Repo/Homework-class36/1-JavaScript/Week4/homework/ex1-doubleEvenNumbers.test.js: Unexpected token (35:0)
+
+      33 |   expect(actual).toEqual(expected);
+      34 | });
+    > 35 |
+         | ^
+
+      at Parser._raise (node_modules/@babel/parser/src/parser/error.js:147:45)
+      at Parser.raiseWithData (node_modules/@babel/parser/src/parser/error.js:142:17)
+      at Parser.raise (node_modules/@babel/parser/src/parser/error.js:91:17)
+      at Parser.unexpected (node_modules/@babel/parser/src/parser/util.js:190:16)
+      at Parser.parseExprAtom (node_modules/@babel/parser/src/parser/expression.js:1323:22)
+      at Parser.parseExprSubscripts (node_modules/@babel/parser/src/parser/expression.js:668:23)
+      at Parser.parseUpdate (node_modules/@babel/parser/src/parser/expression.js:648:21)
+      at Parser.parseMaybeUnary (node_modules/@babel/parser/src/parser/expression.js:619:23)
+      at Parser.parseMaybeUnaryOrPrivate (node_modules/@babel/parser/src/parser/expression.js:372:14)
+      at Parser.parseExprOps (node_modules/@babel/parser/src/parser/expression.js:382:23)
+
+Test Suites: 1 failed, 1 total
+Tests:       0 total
+Snapshots:   0 total
+Time:        0.652 s, estimated 1 s
+Ran all test suites matching /ex1-doubleEvenNumbers.test.js/i.
+2022-02-19 02:29:06 error: *** Spell Checker Report ***
+
+
+2022-02-19 02:33:21 info: ------------------------------------------------------
+2022-02-19 02:33:21 info: >>> Running Unit Test `ex1-doubleEvenNumbers.test` <<<
+2022-02-19 02:33:21 info: ------------------------------------------------------
+2022-02-19 02:33:23 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex1-doubleEvenNumbers.test.js --colors
+ FAIL  1-JavaScript/Week4/homework/ex1-doubleEvenNumbers.test.js
+  ✕ doubleEvenNumbers should take the even numbers and double them (8 ms)
+
+  ● doubleEvenNumbers should take the even numbers and double them
+
+    expect(received).toEqual(expected) // deep equality
+
+    Expected: [4, 8]
+    Received: undefined
+
+      29 |   const actual = doubleEvenNumbers([1, 2, 3, 4]);
+      30 |   const expected = [4, 8];
+    > 31 |   expect(actual).toEqual(expected);
+         |                  ^
+      32 | });
+      33 |
+
+      at Object.<anonymous> (1-JavaScript/Week4/homework/ex1-doubleEvenNumbers.test.js:31:18)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        0.468 s
+Ran all test suites matching /ex1-doubleEvenNumbers.test.js/i.
+2022-02-19 02:33:25 error: *** Spell Checker Report ***
+
+
+2022-02-19 02:36:51 info: ------------------------------------------------------
+2022-02-19 02:36:51 info: >>> Running Unit Test `ex1-doubleEvenNumbers.test` <<<
+2022-02-19 02:36:51 info: ------------------------------------------------------
+2022-02-19 02:36:53 info: All unit tests passed.
+2022-02-19 02:36:54 error: *** Spell Checker Report ***
+
+
+2022-02-19 02:52:17 info: ------------------------------------------------------
+2022-02-19 02:52:17 info: >>> Running Unit Test `ex1-doubleEvenNumbers.test` <<<
+2022-02-19 02:52:17 info: ------------------------------------------------------
+2022-02-19 02:52:19 info: All unit tests passed.
+2022-02-19 02:52:20 error: *** Spell Checker Report ***
+
+
