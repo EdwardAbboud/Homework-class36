@@ -196,3 +196,616 @@ Ran all test suites matching /ex2-mondaysWorth.test.js/i.
 2022-02-20 12:13:29 error: *** Spell Checker Report ***
 
 
+2022-02-20 10:25:10 info: -------------------------------------------------
+2022-02-20 10:25:10 info: >>> Running Unit Test `ex2-mondaysWorth.test` <<<
+2022-02-20 10:25:10 info: -------------------------------------------------
+2022-02-20 10:25:13 info: All unit tests passed.
+2022-02-20 10:25:15 error: *** Spell Checker Report ***
+
+
+2022-02-20 10:38:46 info: -------------------------------------------------
+2022-02-20 10:38:46 info: >>> Running Unit Test `ex3-lemonAllergy.test` <<<
+2022-02-20 10:38:46 info: -------------------------------------------------
+2022-02-20 10:38:48 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex3-lemonAllergy.test.js --colors
+ FAIL  1-JavaScript/Week4/homework/ex3-lemonAllergy.test.js
+  sanitizeFruitBasket
+    ✕ should take two parameters (4 ms)
+    ✕ should not modify the original `fruitBasket` array (1 ms)
+    ✕ should return a new array that does not include the unwanted `lemon` (1 ms)
+
+  ● sanitizeFruitBasket › should take two parameters
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: 2
+    Received: 0
+
+      34 | describe('sanitizeFruitBasket', () => {
+      35 |   test('should take two parameters', () => {
+    > 36 |     expect(sanitizeFruitBasket.length).toBe(2);
+         |                                        ^
+      37 |   });
+      38 |
+      39 |   test('should not modify the original `fruitBasket` array', () => {
+
+      at Object.<anonymous> (1-JavaScript/Week4/homework/ex3-lemonAllergy.test.js:36:40)
+
+  ● sanitizeFruitBasket › should not modify the original `fruitBasket` array
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: true
+    Received: false
+
+      41 |     const originalFruitBasketContents = [...fruitBasket];
+      42 |     // TODO replace next line with your code
+    > 43 |     expect(false).toBe(true);
+         |                   ^
+      44 |   });
+      45 |
+      46 |   test('should return a new array that does not include the unwanted `lemon`', () => {
+
+      at Object.<anonymous> (1-JavaScript/Week4/homework/ex3-lemonAllergy.test.js:43:19)
+
+  ● sanitizeFruitBasket › should return a new array that does not include the unwanted `lemon`
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: true
+    Received: false
+
+      46 |   test('should return a new array that does not include the unwanted `lemon`', () => {
+      47 |     // TODO replace next line with your code
+    > 48 |     expect(false).toBe(true);
+         |                   ^
+      49 |   });
+      50 | });
+      51 |
+
+      at Object.<anonymous> (1-JavaScript/Week4/homework/ex3-lemonAllergy.test.js:48:19)
+
+Test Suites: 1 failed, 1 total
+Tests:       3 failed, 3 total
+Snapshots:   0 total
+Time:        0.462 s
+Ran all test suites matching /ex3-lemonAllergy.test.js/i.
+2022-02-20 10:38:49 error: *** Spell Checker Report ***
+
+
+2022-02-20 10:39:28 info: -------------------------------------------------
+2022-02-20 10:39:28 info: >>> Running Unit Test `ex3-lemonAllergy.test` <<<
+2022-02-20 10:39:28 info: -------------------------------------------------
+2022-02-20 10:39:30 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex3-lemonAllergy.test.js --colors
+ FAIL  1-JavaScript/Week4/homework/ex3-lemonAllergy.test.js
+  sanitizeFruitBasket
+    ✓ should take two parameters (2 ms)
+    ✕ should not modify the original `fruitBasket` array (2 ms)
+    ✕ should return a new array that does not include the unwanted `lemon`
+
+  ● sanitizeFruitBasket › should not modify the original `fruitBasket` array
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: true
+    Received: false
+
+      41 |     const originalFruitBasketContents = [...fruitBasket];
+      42 |     // TODO replace next line with your code
+    > 43 |     expect(false).toBe(true);
+         |                   ^
+      44 |   });
+      45 |
+      46 |   test('should return a new array that does not include the unwanted `lemon`', () => {
+
+      at Object.<anonymous> (1-JavaScript/Week4/homework/ex3-lemonAllergy.test.js:43:19)
+
+  ● sanitizeFruitBasket › should return a new array that does not include the unwanted `lemon`
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: true
+    Received: false
+
+      46 |   test('should return a new array that does not include the unwanted `lemon`', () => {
+      47 |     // TODO replace next line with your code
+    > 48 |     expect(false).toBe(true);
+         |                   ^
+      49 |   });
+      50 | });
+      51 |
+
+      at Object.<anonymous> (1-JavaScript/Week4/homework/ex3-lemonAllergy.test.js:48:19)
+
+Test Suites: 1 failed, 1 total
+Tests:       2 failed, 1 passed, 3 total
+Snapshots:   0 total
+Time:        0.453 s, estimated 1 s
+Ran all test suites matching /ex3-lemonAllergy.test.js/i.
+2022-02-20 10:39:32 error: *** Spell Checker Report ***
+
+
+2022-02-20 11:07:53 info: -------------------------------------------------
+2022-02-20 11:07:53 info: >>> Running Unit Test `ex3-lemonAllergy.test` <<<
+2022-02-20 11:07:53 info: -------------------------------------------------
+2022-02-20 11:07:55 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex3-lemonAllergy.test.js --colors
+ FAIL  1-JavaScript/Week4/homework/ex3-lemonAllergy.test.js
+  sanitizeFruitBasket
+    ✓ should take two parameters (2 ms)
+    ✓ should not modify the original `fruitBasket` array (1 ms)
+    ✕ should return a new array that does not include the unwanted `lemon` (1 ms)
+
+  ● sanitizeFruitBasket › should return a new array that does not include the unwanted `lemon`
+
+    ReferenceError: newBasket is not defined
+
+      45 |
+      46 |   test('should return a new array that does not include the unwanted `lemon`', () => {
+    > 47 |     expect(newBasket).not.toEqual('lemon');
+         |            ^
+      48 |   });
+      49 | });
+      50 |
+
+      at Object.<anonymous> (1-JavaScript/Week4/homework/ex3-lemonAllergy.test.js:47:12)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 2 passed, 3 total
+Snapshots:   0 total
+Time:        0.509 s, estimated 1 s
+Ran all test suites matching /ex3-lemonAllergy.test.js/i.
+2022-02-20 11:07:56 error: *** Spell Checker Report ***
+
+
+2022-02-20 11:08:52 info: -------------------------------------------------
+2022-02-20 11:08:52 info: >>> Running Unit Test `ex3-lemonAllergy.test` <<<
+2022-02-20 11:08:52 info: -------------------------------------------------
+2022-02-20 11:08:54 info: All unit tests passed.
+2022-02-20 11:08:56 error: *** Spell Checker Report ***
+
+
+2022-02-20 11:19:14 info: -------------------------------------------------
+2022-02-20 11:19:14 info: >>> Running Unit Test `ex3-lemonAllergy.test` <<<
+2022-02-20 11:19:14 info: -------------------------------------------------
+2022-02-20 11:19:16 info: All unit tests passed.
+2022-02-20 11:19:18 error: *** Spell Checker Report ***
+
+
+2022-02-20 11:22:56 info: -------------------------------------------------
+2022-02-20 11:22:56 info: >>> Running Unit Test `ex3-lemonAllergy.test` <<<
+2022-02-20 11:22:56 info: -------------------------------------------------
+2022-02-20 11:22:59 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex3-lemonAllergy.test.js --colors
+ FAIL  1-JavaScript/Week4/homework/ex3-lemonAllergy.test.js
+  sanitizeFruitBasket
+    ✓ should take two parameters (11 ms)
+    ✓ should not modify the original `fruitBasket` array (2 ms)
+    ✕ should return a new array that does not include the unwanted `lemon` (12 ms)
+
+  ● sanitizeFruitBasket › should return a new array that does not include the unwanted `lemon`
+
+    expect(received).not.toMatch(expected)
+
+    Matcher error: received value must be a string
+
+    Received has value: undefined
+
+      45 |
+      46 |   test('should return a new array that does not include the unwanted `lemon`', () => {
+    > 47 |     expect(sanitizeFruitBasket.newBasket).not.toMatch('lemon');
+         |                                               ^
+      48 |   });
+      49 | });
+      50 |
+
+      at Object.<anonymous> (1-JavaScript/Week4/homework/ex3-lemonAllergy.test.js:47:47)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 2 passed, 3 total
+Snapshots:   0 total
+Time:        0.97 s, estimated 1 s
+Ran all test suites matching /ex3-lemonAllergy.test.js/i.
+2022-02-20 11:23:01 error: *** Spell Checker Report ***
+
+
+2022-02-20 11:23:55 info: -------------------------------------------------
+2022-02-20 11:23:55 info: >>> Running Unit Test `ex3-lemonAllergy.test` <<<
+2022-02-20 11:23:55 info: -------------------------------------------------
+2022-02-20 11:23:57 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex3-lemonAllergy.test.js --colors
+ FAIL  1-JavaScript/Week4/homework/ex3-lemonAllergy.test.js
+  sanitizeFruitBasket
+    ✓ should take two parameters (3 ms)
+    ✓ should not modify the original `fruitBasket` array (1 ms)
+    ✕ should return a new array that does not include the unwanted `lemon` (3 ms)
+
+  ● sanitizeFruitBasket › should return a new array that does not include the unwanted `lemon`
+
+    expect(received).not.toMatch(expected)
+
+    Matcher error: received value must be a string
+
+    Received has value: undefined
+
+      45 |
+      46 |   test('should return a new array that does not include the unwanted `lemon`', () => {
+    > 47 |     expect(sanitizeFruitBasket.newBasket).not.toMatch(/lemon/);
+         |                                               ^
+      48 |   });
+      49 | });
+      50 |
+
+      at Object.<anonymous> (1-JavaScript/Week4/homework/ex3-lemonAllergy.test.js:47:47)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 2 passed, 3 total
+Snapshots:   0 total
+Time:        0.537 s, estimated 1 s
+Ran all test suites matching /ex3-lemonAllergy.test.js/i.
+2022-02-20 11:23:59 error: *** Spell Checker Report ***
+
+
+2022-02-20 11:24:25 info: -------------------------------------------------
+2022-02-20 11:24:25 info: >>> Running Unit Test `ex3-lemonAllergy.test` <<<
+2022-02-20 11:24:25 info: -------------------------------------------------
+2022-02-20 11:24:27 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex3-lemonAllergy.test.js --colors
+ FAIL  1-JavaScript/Week4/homework/ex3-lemonAllergy.test.js
+  sanitizeFruitBasket
+    ✓ should take two parameters (2 ms)
+    ✓ should not modify the original `fruitBasket` array
+    ✕ should return a new array that does not include the unwanted `lemon` (1 ms)
+
+  ● sanitizeFruitBasket › should return a new array that does not include the unwanted `lemon`
+
+    expect(received).not.toMatch(expected)
+
+    Matcher error: received value must be a string
+
+    Received has type:  function
+    Received has value: [Function sanitizeFruitBasket]
+
+      45 |
+      46 |   test('should return a new array that does not include the unwanted `lemon`', () => {
+    > 47 |     expect(sanitizeFruitBasket).not.toMatch(/lemon/);
+         |                                     ^
+      48 |   });
+      49 | });
+      50 |
+
+      at Object.<anonymous> (1-JavaScript/Week4/homework/ex3-lemonAllergy.test.js:47:37)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 2 passed, 3 total
+Snapshots:   0 total
+Time:        0.456 s, estimated 1 s
+Ran all test suites matching /ex3-lemonAllergy.test.js/i.
+2022-02-20 11:24:28 error: *** Spell Checker Report ***
+
+
+2022-02-20 11:25:04 info: -------------------------------------------------
+2022-02-20 11:25:04 info: >>> Running Unit Test `ex3-lemonAllergy.test` <<<
+2022-02-20 11:25:04 info: -------------------------------------------------
+2022-02-20 11:25:06 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex3-lemonAllergy.test.js --colors
+ FAIL  1-JavaScript/Week4/homework/ex3-lemonAllergy.test.js
+  sanitizeFruitBasket
+    ✓ should take two parameters (2 ms)
+    ✓ should not modify the original `fruitBasket` array (1 ms)
+    ✕ should return a new array that does not include the unwanted `lemon` (1 ms)
+
+  ● sanitizeFruitBasket › should return a new array that does not include the unwanted `lemon`
+
+    ReferenceError: newBasket is not defined
+
+      45 |
+      46 |   test('should return a new array that does not include the unwanted `lemon`', () => {
+    > 47 |     expect(newBasket).not.toMatch(/lemon/);
+         |            ^
+      48 |   });
+      49 | });
+      50 |
+
+      at Object.<anonymous> (1-JavaScript/Week4/homework/ex3-lemonAllergy.test.js:47:12)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 2 passed, 3 total
+Snapshots:   0 total
+Time:        0.468 s, estimated 1 s
+Ran all test suites matching /ex3-lemonAllergy.test.js/i.
+2022-02-20 11:25:07 error: *** Spell Checker Report ***
+
+
+2022-02-20 11:25:38 info: -------------------------------------------------
+2022-02-20 11:25:38 info: >>> Running Unit Test `ex3-lemonAllergy.test` <<<
+2022-02-20 11:25:38 info: -------------------------------------------------
+2022-02-20 11:25:40 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex3-lemonAllergy.test.js --colors
+ FAIL  1-JavaScript/Week4/homework/ex3-lemonAllergy.test.js
+  sanitizeFruitBasket
+    ✓ should take two parameters (2 ms)
+    ✓ should not modify the original `fruitBasket` array (1 ms)
+    ✕ should return a new array that does not include the unwanted `lemon` (2 ms)
+
+  ● sanitizeFruitBasket › should return a new array that does not include the unwanted `lemon`
+
+    expect(received).not.toMatch(expected)
+
+    Matcher error: received value must be a string
+
+    Received has value: undefined
+
+      45 |
+      46 |   test('should return a new array that does not include the unwanted `lemon`', () => {
+    > 47 |     expect(sanitizeFruitBasket.newBasket).not.toMatch(/lemon/);
+         |                                               ^
+      48 |   });
+      49 | });
+      50 |
+
+      at Object.<anonymous> (1-JavaScript/Week4/homework/ex3-lemonAllergy.test.js:47:47)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 2 passed, 3 total
+Snapshots:   0 total
+Time:        0.38 s, estimated 1 s
+Ran all test suites matching /ex3-lemonAllergy.test.js/i.
+2022-02-20 11:25:41 error: *** Spell Checker Report ***
+
+
+2022-02-20 11:26:30 info: -------------------------------------------------
+2022-02-20 11:26:30 info: >>> Running Unit Test `ex3-lemonAllergy.test` <<<
+2022-02-20 11:26:30 info: -------------------------------------------------
+2022-02-20 11:26:32 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex3-lemonAllergy.test.js --colors
+ FAIL  1-JavaScript/Week4/homework/ex3-lemonAllergy.test.js
+  sanitizeFruitBasket
+    ✓ should take two parameters (2 ms)
+    ✓ should not modify the original `fruitBasket` array (1 ms)
+    ✕ should return a new array that does not include the unwanted `lemon` (2 ms)
+
+  ● sanitizeFruitBasket › should return a new array that does not include the unwanted `lemon`
+
+    expect(received).not.toMatch(expected)
+
+    Matcher error: received value must be a string
+
+    Received has type:  array
+    Received has value: ["apple", "lemon", "grapefruit", "lemon", "banana", "watermelon", "lemon"]
+
+      45 |
+      46 |   test('should return a new array that does not include the unwanted `lemon`', () => {
+    > 47 |     expect(fruitBasket).not.toMatch(/lemon/);
+         |                             ^
+      48 |   });
+      49 | });
+      50 |
+
+      at Object.<anonymous> (1-JavaScript/Week4/homework/ex3-lemonAllergy.test.js:47:29)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 2 passed, 3 total
+Snapshots:   0 total
+Time:        0.469 s, estimated 1 s
+Ran all test suites matching /ex3-lemonAllergy.test.js/i.
+2022-02-20 11:26:34 error: *** Spell Checker Report ***
+
+
+2022-02-20 11:27:26 info: -------------------------------------------------
+2022-02-20 11:27:26 info: >>> Running Unit Test `ex3-lemonAllergy.test` <<<
+2022-02-20 11:27:26 info: -------------------------------------------------
+2022-02-20 11:27:28 info: All unit tests passed.
+2022-02-20 11:27:29 error: *** Spell Checker Report ***
+
+
+2022-02-20 11:28:02 info: -------------------------------------------------
+2022-02-20 11:28:02 info: >>> Running Unit Test `ex3-lemonAllergy.test` <<<
+2022-02-20 11:28:02 info: -------------------------------------------------
+2022-02-20 11:28:04 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex3-lemonAllergy.test.js --colors
+ FAIL  1-JavaScript/Week4/homework/ex3-lemonAllergy.test.js
+  sanitizeFruitBasket
+    ✓ should take two parameters (2 ms)
+    ✓ should not modify the original `fruitBasket` array (1 ms)
+    ✕ should return a new array that does not include the unwanted `lemon` (1 ms)
+
+  ● sanitizeFruitBasket › should return a new array that does not include the unwanted `lemon`
+
+    expect(received).not.toContain(expected) // indexOf
+
+    Matcher error: received value must not be null nor undefined
+
+    Received has value: undefined
+
+      45 |
+      46 |   test('should return a new array that does not include the unwanted `lemon`', () => {
+    > 47 |     expect(sanitizeFruitBasket.newBasket).not.toContain(/lemon/);
+         |                                               ^
+      48 |   });
+      49 | });
+      50 |
+
+      at Object.<anonymous> (1-JavaScript/Week4/homework/ex3-lemonAllergy.test.js:47:47)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 2 passed, 3 total
+Snapshots:   0 total
+Time:        0.449 s, estimated 1 s
+Ran all test suites matching /ex3-lemonAllergy.test.js/i.
+2022-02-20 11:28:06 error: *** Spell Checker Report ***
+
+
+2022-02-20 11:28:36 info: -------------------------------------------------
+2022-02-20 11:28:36 info: >>> Running Unit Test `ex3-lemonAllergy.test` <<<
+2022-02-20 11:28:36 info: -------------------------------------------------
+2022-02-20 11:28:38 info: All unit tests passed.
+2022-02-20 11:28:39 error: *** Spell Checker Report ***
+
+
+2022-02-20 11:29:01 info: -------------------------------------------------
+2022-02-20 11:29:01 info: >>> Running Unit Test `ex3-lemonAllergy.test` <<<
+2022-02-20 11:29:01 info: -------------------------------------------------
+2022-02-20 11:29:03 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex3-lemonAllergy.test.js --colors
+ FAIL  1-JavaScript/Week4/homework/ex3-lemonAllergy.test.js
+  sanitizeFruitBasket
+    ✓ should take two parameters (2 ms)
+    ✓ should not modify the original `fruitBasket` array (1 ms)
+    ✕ should return a new array that does not include the unwanted `lemon` (2 ms)
+
+  ● sanitizeFruitBasket › should return a new array that does not include the unwanted `lemon`
+
+    expect(received).not.toContain(expected) // indexOf
+
+    Expected value: not "lemon"
+    Received array:     ["apple", "lemon", "grapefruit", "lemon", "banana", "watermelon", "lemon"]
+
+      45 |
+      46 |   test('should return a new array that does not include the unwanted `lemon`', () => {
+    > 47 |     expect(fruitBasket).not.toContain('lemon');
+         |                             ^
+      48 |   });
+      49 | });
+      50 |
+
+      at Object.<anonymous> (1-JavaScript/Week4/homework/ex3-lemonAllergy.test.js:47:29)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 2 passed, 3 total
+Snapshots:   0 total
+Time:        0.471 s, estimated 1 s
+Ran all test suites matching /ex3-lemonAllergy.test.js/i.
+2022-02-20 11:29:05 error: *** Spell Checker Report ***
+
+
+2022-02-20 11:30:06 info: -------------------------------------------------
+2022-02-20 11:30:06 info: >>> Running Unit Test `ex3-lemonAllergy.test` <<<
+2022-02-20 11:30:06 info: -------------------------------------------------
+2022-02-20 11:30:08 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex3-lemonAllergy.test.js --colors
+ FAIL  1-JavaScript/Week4/homework/ex3-lemonAllergy.test.js
+  sanitizeFruitBasket
+    ✓ should take two parameters (2 ms)
+    ✓ should not modify the original `fruitBasket` array (1 ms)
+    ✕ should return a new array that does not include the unwanted `lemon` (1 ms)
+
+  ● sanitizeFruitBasket › should return a new array that does not include the unwanted `lemon`
+
+    expect(received).not.toContain(expected) // indexOf
+
+    Matcher error: received value must not be null nor undefined
+
+    Received has value: undefined
+
+      45 |
+      46 |   test('should return a new array that does not include the unwanted `lemon`', () => {
+    > 47 |     expect(sanitizeFruitBasket.newBasket).not.toContain('lemon');
+         |                                               ^
+      48 |   });
+      49 | });
+      50 |
+
+      at Object.<anonymous> (1-JavaScript/Week4/homework/ex3-lemonAllergy.test.js:47:47)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 2 passed, 3 total
+Snapshots:   0 total
+Time:        0.455 s, estimated 1 s
+Ran all test suites matching /ex3-lemonAllergy.test.js/i.
+2022-02-20 11:30:10 error: *** Spell Checker Report ***
+
+
+2022-02-20 11:40:40 info: -------------------------------------------------
+2022-02-20 11:40:40 info: >>> Running Unit Test `ex3-lemonAllergy.test` <<<
+2022-02-20 11:40:40 info: -------------------------------------------------
+2022-02-20 11:40:42 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex3-lemonAllergy.test.js --colors
+ FAIL  1-JavaScript/Week4/homework/ex3-lemonAllergy.test.js
+  ● Test suite failed to run
+
+    SyntaxError: /Users/edwardabboud/Documents/Coding/My Code/Hack Your Future/Javascript/Homework-Repo/Homework-class36/1-JavaScript/Week4/homework/ex3-lemonAllergy.test.js: Unexpected token, expected "(" (47:19)
+
+      45 |
+      46 |   test('should return a new array that does not include the unwanted `lemon`', () => {
+    > 47 |     expect(function.sanitizeFruitBasket).not.toContain('lemon');
+         |                    ^
+      48 |   });
+      49 | });
+      50 |
+
+      at Parser._raise (node_modules/@babel/parser/src/parser/error.js:147:45)
+      at Parser.raiseWithData (node_modules/@babel/parser/src/parser/error.js:142:17)
+      at Parser.raise (node_modules/@babel/parser/src/parser/error.js:91:17)
+      at Parser.unexpected (node_modules/@babel/parser/src/parser/util.js:190:16)
+      at Parser.expect (node_modules/@babel/parser/src/parser/util.js:150:28)
+      at Parser.parseFunctionParams (node_modules/@babel/parser/src/parser/statement.js:1227:10)
+      at Parser.parseFunction (node_modules/@babel/parser/src/parser/statement.js:1193:10)
+      at Parser.parseFunctionOrFunctionSent (node_modules/@babel/parser/src/parser/expression.js:1544:17)
+      at Parser.parseExprAtom (node_modules/@babel/parser/src/parser/expression.js:1151:21)
+      at Parser.parseExprSubscripts (node_modules/@babel/parser/src/parser/expression.js:668:23)
+
+Test Suites: 1 failed, 1 total
+Tests:       0 total
+Snapshots:   0 total
+Time:        0.589 s, estimated 1 s
+Ran all test suites matching /ex3-lemonAllergy.test.js/i.
+2022-02-20 11:40:44 error: *** Spell Checker Report ***
+
+
+2022-02-20 11:42:23 info: -------------------------------------------------
+2022-02-20 11:42:23 info: >>> Running Unit Test `ex3-lemonAllergy.test` <<<
+2022-02-20 11:42:23 info: -------------------------------------------------
+2022-02-20 11:42:25 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex3-lemonAllergy.test.js --colors
+ FAIL  1-JavaScript/Week4/homework/ex3-lemonAllergy.test.js
+  sanitizeFruitBasket
+    ✓ should take two parameters (3 ms)
+    ✓ should not modify the original `fruitBasket` array (1 ms)
+    ✕ should return a new array that does not include the unwanted `lemon` (1 ms)
+
+  ● sanitizeFruitBasket › should return a new array that does not include the unwanted `lemon`
+
+    TypeError: Cannot read properties of undefined (reading 'filter')
+
+      28 | // ! Function under test
+      29 | function sanitizeFruitBasket(fruitBasket, lemon) {
+    > 30 |   const newBasket = [...fruitBasket.filter((item) => item !== lemon)];
+         |                                     ^
+      31 |   return newBasket;
+      32 | }
+      33 |
+
+      at sanitizeFruitBasket (1-JavaScript/Week4/homework/ex3-lemonAllergy.test.js:30:37)
+      at Object.<anonymous> (1-JavaScript/Week4/homework/ex3-lemonAllergy.test.js:47:12)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 2 passed, 3 total
+Snapshots:   0 total
+Time:        0.494 s
+Ran all test suites matching /ex3-lemonAllergy.test.js/i.
+2022-02-20 11:42:27 error: *** Spell Checker Report ***
+
+
+2022-02-20 11:43:10 info: -------------------------------------------------
+2022-02-20 11:43:10 info: >>> Running Unit Test `ex3-lemonAllergy.test` <<<
+2022-02-20 11:43:10 info: -------------------------------------------------
+2022-02-20 11:43:12 info: All unit tests passed.
+2022-02-20 11:43:14 error: *** Spell Checker Report ***
+
+
