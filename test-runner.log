@@ -809,3 +809,10 @@ Ran all test suites matching /ex3-lemonAllergy.test.js/i.
 2022-02-20 11:43:14 error: *** Spell Checker Report ***
 
 
+2022-02-20 06:43:28 info: -------------------------------------------------
+2022-02-20 06:43:28 info: >>> Running Unit Test `ex3-lemonAllergy.test` <<<
+2022-02-20 06:43:28 info: -------------------------------------------------
+2022-02-20 06:43:31 info: All unit tests passed.
+2022-02-20 06:43:36 error: *** Spell Checker Report ***
+
+
