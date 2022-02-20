@@ -816,3 +816,104 @@ Ran all test suites matching /ex3-lemonAllergy.test.js/i.
 2022-02-20 06:43:36 error: *** Spell Checker Report ***
 
 
+2022-02-20 07:10:04 info: ------------------------------------------
+2022-02-20 07:10:04 info: >>> Running Unit Test `ex4-observable` <<<
+2022-02-20 07:10:04 info: ------------------------------------------
+2022-02-20 07:10:06 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex4-observable.test.js --colors
+ FAIL  1-JavaScript/Week4/homework/ex4-observable/ex4-observable.test.js
+  createObservable
+    ✓ should exist and be a function (2 ms)
+    ✓ should return an object with `subscribe` and a `notify` function properties (1 ms)
+    ✕ should notify all subscribers of any notification (2 ms)
+
+  ● createObservable › should notify all subscribers of any notification
+
+    TypeError: subscribers.pugh is not a function
+
+      18 |   return {
+      19 |     subscribe: function (subscriber) {
+    > 20 |       subscribers.pugh(subscriber);
+         |                   ^
+      21 |     },
+      22 |     notify: function (message) {
+      23 |       subscribers.forEach((subscriber) => subscriber(message));
+
+      at Object.subscribe (1-JavaScript/Week4/homework/ex4-observable/ex4-observable.js:20:19)
+      at Object.<anonymous> (1-JavaScript/Week4/homework/ex4-observable/ex4-observable.test.js:23:16)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 2 passed, 3 total
+Snapshots:   0 total
+Time:        0.505 s
+Ran all test suites matching /ex4-observable.test.js/i.
+2022-02-20 07:10:08 error: *** Spell Checker Report ***
+
+
+2022-02-20 07:10:21 info: ------------------------------------------
+2022-02-20 07:10:21 info: >>> Running Unit Test `ex4-observable` <<<
+2022-02-20 07:10:21 info: ------------------------------------------
+2022-02-20 07:10:23 info: All unit tests passed.
+2022-02-20 07:10:24 error: *** Spell Checker Report ***
+
+
+2022-02-20 07:12:31 info: ------------------------------------------
+2022-02-20 07:12:31 info: >>> Running Unit Test `ex4-observable` <<<
+2022-02-20 07:12:31 info: ------------------------------------------
+2022-02-20 07:12:33 info: All unit tests passed.
+2022-02-20 07:12:35 error: *** Spell Checker Report ***
+
+
+2022-02-20 07:12:46 info: ------------------------------------------
+2022-02-20 07:12:46 info: >>> Running Unit Test `ex4-observable` <<<
+2022-02-20 07:12:46 info: ------------------------------------------
+2022-02-20 07:12:49 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex4-observable.test.js --colors
+ FAIL  1-JavaScript/Week4/homework/ex4-observable/ex4-observable.test.js
+  createObservable
+    ✓ should exist and be a function (2 ms)
+    ✓ should return an object with `subscribe` and a `notify` function properties
+    ✕ should notify all subscribers of any notification (3 ms)
+
+  ● createObservable › should notify all subscribers of any notification
+
+    expect(jest.fn()).toHaveBeenCalledWith(...expected)
+
+    Expected: "Hi!"
+
+    Number of calls: 0
+
+      28 |
+      29 |     // Assert that both listeners have been called with the Hi! message
+    > 30 |     expect(listener1).toHaveBeenCalledWith('Hi!');
+         |                       ^
+      31 |     expect(listener2).toHaveBeenCalledWith('Hi!');
+      32 |   });
+      33 | });
+
+      at Object.<anonymous> (1-JavaScript/Week4/homework/ex4-observable/ex4-observable.test.js:30:23)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 2 passed, 3 total
+Snapshots:   0 total
+Time:        0.588 s, estimated 1 s
+Ran all test suites matching /ex4-observable.test.js/i.
+2022-02-20 07:12:51 error: *** Spell Checker Report ***
+
+
+2022-02-20 07:13:01 info: ------------------------------------------
+2022-02-20 07:13:01 info: >>> Running Unit Test `ex4-observable` <<<
+2022-02-20 07:13:01 info: ------------------------------------------
+2022-02-20 07:13:03 info: All unit tests passed.
+2022-02-20 07:13:04 error: *** Spell Checker Report ***
+
+
+2022-02-20 07:14:05 info: ------------------------------------------
+2022-02-20 07:14:05 info: >>> Running Unit Test `ex4-observable` <<<
+2022-02-20 07:14:05 info: ------------------------------------------
+2022-02-20 07:14:07 info: All unit tests passed.
+2022-02-20 07:14:09 error: *** Spell Checker Report ***
+
+
