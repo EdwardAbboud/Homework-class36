@@ -924,3 +924,10 @@ Ran all test suites matching /ex4-observable.test.js/i.
 2022-02-20 07:48:37 error: *** Spell Checker Report ***
 
 
+2022-02-25 12:40:26 info: -------------------------------------------------
+2022-02-25 12:40:26 info: >>> Running Unit Test `ex3-lemonAllergy.test` <<<
+2022-02-25 12:40:26 info: -------------------------------------------------
+2022-02-25 12:40:29 info: All unit tests passed.
+2022-02-25 12:40:31 error: *** Spell Checker Report ***
+
+
