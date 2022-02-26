@@ -3482,3 +3482,82 @@ Ran all test suites matching /ex2-aboutMe.test.js/i.
 2022-02-26 01:58:25 error: *** Spell Checker Report ***
 
 
+2022-02-26 02:11:42 info: ------------------------------------------
+2022-02-26 02:11:42 info: >>> Running Unit Test `ex3-hijackLogo` <<<
+2022-02-26 02:11:42 info: ------------------------------------------
+2022-02-26 02:11:45 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex3-hijackLogo.test.js --colors
+ FAIL  2-Browsers/Week1/unit-tests/ex3-hijackLogo.test.js
+  hijackLogo
+    ✓ should have all TODO comments removed (2 ms)
+    ✓ should set the `src` property
+    ✕ should set the `srcset` property (1 ms)
+
+  ● hijackLogo › should set the `srcset` property
+
+    expect(received).toBeDefined()
+
+    Received: undefined
+
+      33 |
+      34 |   test('should set the `srcset` property', () => {
+    > 35 |     expect(state.srcset).toBeDefined();
+         |                          ^
+      36 |   });
+      37 | });
+      38 |
+
+      at Object.<anonymous> (2-Browsers/Week1/unit-tests/ex3-hijackLogo.test.js:35:26)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 2 passed, 3 total
+Snapshots:   0 total
+Time:        0.52 s
+Ran all test suites matching /ex3-hijackLogo.test.js/i.
+2022-02-26 02:11:47 error: *** Spell Checker Report ***
+
+
+2022-02-26 02:14:31 info: ------------------------------------------
+2022-02-26 02:14:31 info: >>> Running Unit Test `ex3-hijackLogo` <<<
+2022-02-26 02:14:31 info: ------------------------------------------
+2022-02-26 02:14:35 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex3-hijackLogo.test.js --colors
+ FAIL  2-Browsers/Week1/unit-tests/ex3-hijackLogo.test.js
+  hijackLogo
+    ✓ should have all TODO comments removed (1 ms)
+    ✕ should set the `src` property (1 ms)
+    ✓ should set the `srcset` property (1 ms)
+
+  ● hijackLogo › should set the `src` property
+
+    expect(received).toBeDefined()
+
+    Received: undefined
+
+      29 |
+      30 |   test('should set the `src` property', () => {
+    > 31 |     expect(state.src).toBeDefined();
+         |                       ^
+      32 |   });
+      33 |
+      34 |   test('should set the `srcset` property', () => {
+
+      at Object.<anonymous> (2-Browsers/Week1/unit-tests/ex3-hijackLogo.test.js:31:23)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 2 passed, 3 total
+Snapshots:   0 total
+Time:        0.804 s, estimated 1 s
+Ran all test suites matching /ex3-hijackLogo.test.js/i.
+2022-02-26 02:14:37 error: *** Spell Checker Report ***
+
+
+2022-02-26 02:16:13 info: ------------------------------------------
+2022-02-26 02:16:13 info: >>> Running Unit Test `ex3-hijackLogo` <<<
+2022-02-26 02:16:13 info: ------------------------------------------
+2022-02-26 02:16:16 info: All unit tests passed.
+2022-02-26 02:16:18 error: *** Spell Checker Report ***
+
+
