@@ -1,1 +1,16 @@
 /* Write your style here */
+ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+li {
+  width: 370px;
+  margin: 16px;
+  padding: 15px;
+}
+
+img {
+  height: 300px;
+}
