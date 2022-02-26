@@ -3561,3 +3561,102 @@ Ran all test suites matching /ex3-hijackLogo.test.js/i.
 2022-02-26 02:16:18 error: *** Spell Checker Report ***
 
 
+2022-02-26 03:18:09 info: --------------------------------------------
+2022-02-26 03:18:09 info: >>> Running Unit Test `ex4-whatsTheTime` <<<
+2022-02-26 03:18:09 info: --------------------------------------------
+2022-02-26 03:18:20 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex4-whatsTheTime.test.js --colors
+ FAIL  2-Browsers/Week1/unit-tests/ex4-whatsTheTime.test.js (7.591 s)
+  whatsTheTime
+    ✓ HTML should be syntactically valid (223 ms)
+    ✕ should have all TODO comments removed (1 ms)
+    ✓ should use `setInterval()` (1 ms)
+    ✓ should not call `setInterval()` more than once (2019 ms)
+    ✓ should use `window.onload` or `window.addEventListener()` for the `load` or `DOMContentLoaded` event (1 ms)
+    ✓ `window.onload` or `window.addEventListener` should not call its event handler function
+
+  ● whatsTheTime › should have all TODO comments removed
+
+    expect(received).toBeFalsy()
+
+    Received: true
+
+      103 | function testTodosRemoved(getSource) {
+      104 |   test('should have all TODO comments removed', () => {
+    > 105 |     expect(/\bTODO\b/.test(getSource())).toBeFalsy();
+          |                                          ^
+      106 |   });
+      107 | }
+      108 |
+
+      at Object.<anonymous> (test-runner/unit-test-helpers.js:105:42)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 5 passed, 6 total
+Snapshots:   0 total
+Time:        7.677 s
+Ran all test suites matching /ex4-whatsTheTime.test.js/i.
+2022-02-26 03:18:24 error: *** Spell Checker Report ***
+
+
+2022-02-26 03:18:54 info: --------------------------------------------
+2022-02-26 03:18:54 info: >>> Running Unit Test `ex4-whatsTheTime` <<<
+2022-02-26 03:18:54 info: --------------------------------------------
+2022-02-26 03:19:03 info: All unit tests passed.
+2022-02-26 03:19:07 error: *** Spell Checker Report ***
+
+
+2022-02-26 03:52:29 info: --------------------------------------------
+2022-02-26 03:52:29 info: >>> Running Unit Test `ex4-whatsTheTime` <<<
+2022-02-26 03:52:29 info: --------------------------------------------
+2022-02-26 03:52:38 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex4-whatsTheTime.test.js --colors
+ FAIL  2-Browsers/Week1/unit-tests/ex4-whatsTheTime.test.js (5.825 s)
+  whatsTheTime
+    ✓ HTML should be syntactically valid (145 ms)
+    ✓ should have all TODO comments removed (2 ms)
+    ✓ should use `setInterval()` (1 ms)
+    ✓ should not call `setInterval()` more than once (2005 ms)
+    ✓ should use `window.onload` or `window.addEventListener()` for the `load` or `DOMContentLoaded` event
+    ✕ `window.onload` or `window.addEventListener` should not call its event handler function (1 ms)
+
+  ● whatsTheTime › `window.onload` or `window.addEventListener` should not call its event handler function
+
+    expect(received).not.toBeDefined()
+
+    Received: true
+
+      67 |
+      68 |   test('`window.onload` or `window.addEventListener` should not call its event handler function', () => {
+    > 69 |     expect(state.callError).not.toBeDefined();
+         |                                 ^
+      70 |   });
+      71 | });
+      72 |
+
+      at Object.<anonymous> (2-Browsers/Week1/unit-tests/ex4-whatsTheTime.test.js:69:33)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 5 passed, 6 total
+Snapshots:   0 total
+Time:        5.888 s, estimated 7 s
+Ran all test suites matching /ex4-whatsTheTime.test.js/i.
+2022-02-26 03:52:41 error: *** Spell Checker Report ***
+
+
+2022-02-26 03:55:04 info: --------------------------------------------
+2022-02-26 03:55:04 info: >>> Running Unit Test `ex4-whatsTheTime` <<<
+2022-02-26 03:55:04 info: --------------------------------------------
+2022-02-26 03:55:13 info: All unit tests passed.
+2022-02-26 03:55:15 error: *** Spell Checker Report ***
+
+
+2022-02-26 03:56:27 info: --------------------------------------------
+2022-02-26 03:56:27 info: >>> Running Unit Test `ex4-whatsTheTime` <<<
+2022-02-26 03:56:27 info: --------------------------------------------
+2022-02-26 03:56:35 info: All unit tests passed.
+2022-02-26 03:56:39 error: *** Spell Checker Report ***
+
+
