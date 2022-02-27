@@ -26,10 +26,12 @@ const image = document.querySelector('img');
 image.style.left = '0px';
 
 let position = 0;
+const viewportWidth = window.innerWidth;
+const viewportMid = viewportWidth / 2;
 
 function catWalk() {
   function walk() {
-    if (position < window.innerWidth) {
+    if (position < viewportWidth) {
       if (
         image.src === 'http://www.anniemation.com/clip_art/images/cat-walk.gif'
       ) {
@@ -41,7 +43,7 @@ function catWalk() {
     image.style.left = `${position}px`;
   }
 
-  if (position === window.innerWidth / 2) {
+  if (position > viewportMid - 40 && position < viewportMid) {
     image.src =
       'https://media1.tenor.com/images/2de63e950fb254920054f9bd081e8157/tenor.gif';
     setTimeout(() => {
