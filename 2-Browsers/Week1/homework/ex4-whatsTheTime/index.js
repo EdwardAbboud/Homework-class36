@@ -9,8 +9,21 @@ Full description at: https://github.com/HackYourFuture/Homework/tree/main/2-Brow
 ------------------------------------------------------------------------------*/
 function addCurrentTime() {
   const today = new Date();
-  const time =
-    today.getHours() + ':' + today.getMinutes() + ':' + today.getSeconds();
+  let hour = today.getHours();
+  let minute = today.getMinutes();
+  let second = today.getSeconds();
+  if (hour < 10) {
+    hour = `0${hour}`;
+  }
+  if (minute < 10) {
+    minute = `0${minute}`;
+  }
+  if (second < 10) {
+    second = `0${second}`;
+  }
+
+  const time = hour + ':' + minute + ':' + second;
+
   console.log(time);
   return time;
 }

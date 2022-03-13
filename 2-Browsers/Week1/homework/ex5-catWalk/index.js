@@ -25,11 +25,10 @@ Full description at: https://github.com/HackYourFuture/Homework/tree/main/2-Brow
 const image = document.querySelector('img');
 image.style.left = '0px';
 
-let position = 0;
-const viewportWidth = window.innerWidth;
-const viewportMid = viewportWidth / 2;
-
 function catWalk() {
+  let position = 0;
+  const viewportWidth = window.innerWidth;
+  const viewportMid = viewportWidth / 2;
   function walk() {
     if (position < viewportWidth) {
       if (

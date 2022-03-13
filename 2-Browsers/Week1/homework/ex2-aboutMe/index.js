@@ -17,7 +17,6 @@ favFood.textContent = 'Steak';
 const homeTown = document.querySelector('#hometown');
 homeTown.textContent = 'Beirut';
 
-// const unorderedList = document.getElementsByTagName('ul');
 const listItems = document.getElementsByTagName('li');
 for (let i = 0; i < listItems.length; i++) {
   listItems[i].className = 'list-item';

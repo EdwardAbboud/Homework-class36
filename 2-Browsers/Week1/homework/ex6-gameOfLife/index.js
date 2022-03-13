@@ -13,7 +13,7 @@ const NUM_ROWS = 40;
 // life or death
 function createCell(x, y) {
   const alive = Math.random() > 0.5;
-  let lifeTime = alive === true ? (lifeTime = 1) : (lifeTime = 0);
+  const lifeTime = alive ? 1 : 0;
 
   return {
     x,
