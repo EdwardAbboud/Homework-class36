@@ -20,7 +20,7 @@ https: //hyf-js2-week1-makeme-ex1-demo.herokuapp.com/
 function createBookList(books) {
   const parentList = document.createElement('ul');
 
-  for (let i = 0; i < books.length; i++) {
+  books.forEach((book, i) => {
     const list = document.createElement('li');
     const paragraph = document.createElement('p');
     paragraph.textContent = `${books[i].title} by ${books[i].author}`;
@@ -37,7 +37,7 @@ function createBookList(books) {
     } else {
       list.style.backgroundColor = 'red';
     }
-  }
+  });
   return parentList;
 }
 
