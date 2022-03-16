@@ -45,13 +45,12 @@ function rollDie() {
 
 function main() {
   rollDie()
-    .then((value) => {
-      console.log(`Success! Die settled on ${value}.`);
-    })
-    .catch((error) => {
-      console.log(error.message);
-    });
+    .then((value) => console.log(`Success! Die settled on ${value}.`))
+    .catch((error) => console.log(error.message));
 }
+
+// i think the problem we had before refactoring to the Promise is that the function as reading both if statements separately so when it comes time to console log, we were logging the error after 6 rolls and die fell off the table, but then once it settled we would get the success message because there was no 'break'/error there.
+// After refactoring the if statements are no longer being read separately because of the Promise, it works asynchronously so we have to wait for the data before printing. Which somehow acts as a 'break'.
 
 // ! Do not change or remove the code below
 if (process.env.NODE_ENV !== 'test') {
