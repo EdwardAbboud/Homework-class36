@@ -1350,3 +1350,10 @@ node:internal/process/promises:246
 2022-03-17 07:14:08 error: *** Spell Checker Report ***
 
 
+2022-03-17 07:23:18 info: ----------------------------------------------
+2022-03-17 07:23:18 info: >>> Running Unit Test `ex5-pokerDiceChain` <<<
+2022-03-17 07:23:18 info: ----------------------------------------------
+2022-03-17 07:23:20 info: All unit tests passed.
+2022-03-17 07:23:22 error: *** Spell Checker Report ***
+
+
