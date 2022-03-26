@@ -621,3 +621,17 @@ Ran all test suites matching /ex3-rollAnAce.test.js/i.
 2022-03-26 09:54:04 error: *** Spell Checker Report ***
 
 
+2022-03-26 10:28:44 info: ----------------------------------------
+2022-03-26 10:28:44 info: >>> Running Unit Test `ex5-vscDebug` <<<
+2022-03-26 10:28:44 info: ----------------------------------------
+2022-03-26 10:28:44 warn: A unit test file was not provided.
+2022-03-26 10:28:47 error: *** Spell Checker Report ***
+
+
+2022-03-26 10:29:06 info: ----------------------------------------
+2022-03-26 10:29:06 info: >>> Running Unit Test `ex5-vscDebug` <<<
+2022-03-26 10:29:06 info: ----------------------------------------
+2022-03-26 10:29:06 warn: A unit test file was not provided.
+2022-03-26 10:29:08 error: *** Spell Checker Report ***
+
+
