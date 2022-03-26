@@ -1,1 +1,20 @@
 /* add your styling here */
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+select {
+  width: 50vw;
+  margin: 20px auto;
+}
+
+button {
+  width: 100px;
+  margin: auto;
+}
+
+img {
+  width: 200px;
+  margin: auto;
+}
