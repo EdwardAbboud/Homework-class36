@@ -27,7 +27,7 @@ async function fetchAndRender() {
   try {
     // object destructuring curly braces added:
     const { laureates } = await getData(
-      'http://api.nobelprize.org/2.0/laureates?birthCountry=Netherlands&format=json&csvLang=en'
+      'https://api.nobelprize.org/2.0/laureates?birthCountry=Netherlands&format=json&csvLang=en'
     );
     renderLaureates(laureates);
   } catch (err) {
